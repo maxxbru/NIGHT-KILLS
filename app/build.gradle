@@ -1,0 +1,8 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.nightkills.game'
+    compileSdk 34
+    defaultConfig { applicationId "com.nightkills.game"; minSdk 21; targetSdk 34; versionCode 15; versionName "V15" }
+    buildTypes { release { minifyEnabled false } }
+}
+dependencies {}
